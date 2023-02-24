@@ -12,4 +12,9 @@ public class Tests {
     public void secondTest () {
         Assertions.assertEquals(2, Operations.sum(1,2));
     }
+
+    @Test
+    public void thirdTest () {
+        Assertions.assertEquals(3, Operations.sum(0,3));
+    }
 }
